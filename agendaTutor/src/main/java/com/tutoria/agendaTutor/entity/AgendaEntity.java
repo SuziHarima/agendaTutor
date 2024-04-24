@@ -2,14 +2,12 @@ package com.tutoria.agendaTutor.entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;
-import lombok.Data;
 
 import java.time.LocalDate;
 
 
 @Entity
 @Table(name = "agenda")
-@Data
 public class AgendaEntity {
 
     @Id
