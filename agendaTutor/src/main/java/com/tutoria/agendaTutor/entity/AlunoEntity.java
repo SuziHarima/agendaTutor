@@ -1,9 +1,11 @@
 package com.tutoria.agendaTutor.entity;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
 @Entity
 @Table(name = "aluno")
+@Data
 public class AlunoEntity {
 
     @Id
